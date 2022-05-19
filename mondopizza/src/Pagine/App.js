@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Navbar from './components/navbar';
-import Card from './components/card';
-import margherita from './images/margherita.jpg';
-import diavola from './images/diavola.jpg';
-import vegetariana from './images/vegetariana.jpg';
-//import { BrowserRouter as Router, Switch, Route } from 'react-router';
+import Navbar from '../components/navbar';
+import Card from '../components/card';
+import margherita from '../images/margherita.jpg';
+import diavola from '../images/diavola.jpg';
+import vegetariana from '../images/vegetariana.jpg';
+
 
 
 
@@ -38,7 +38,6 @@ class App extends Component {
     render() {
         
         return (
-            //<Router>
             <>
                 <Navbar />
                 
@@ -56,7 +55,6 @@ class App extends Component {
                 </div>
 
             </>
-            //</Router>
         );
     }
     
