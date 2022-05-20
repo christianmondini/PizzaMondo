@@ -1,0 +1,30 @@
+#distanze{
+
+    border-top:200px;
+    margin-top: 10px;
+}
+
+#bordi{
+    border-color: black;
+
+}
+
+#parolesinistra{
+    border-left: 10px;
+    text-align:left;
+}
+
+#bottone{
+    margin-right: 10px;
+    text-align:right;
+}
+
+#GG{
+        text-align:center;
+        object-position: center;
+}
+
+#container{
+    text-align: center;
+    object-position: center;
+}

@@ -2,10 +2,22 @@
 import React, { Component } from 'react';
 import Navbar from '../components/navbar.js';
 import Carousel from '../components/Carousel.js';
-import Homeg from '../Pagine/Home.css';
+import Homeg from './Homeg.css';
 import Button from '../components/button';
+import Carrello from '../Pagine/Carrello.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+
 
 class Home extends Component{
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      let path = `newPath`; 
+      navigate(path);
+    }
+  
+    
 
     render() {
 
@@ -20,9 +32,9 @@ class Home extends Component{
                         </div>
                 </div>
 
-                <div className='container' >
+                <div className='container' id='container'>
                         <Button />
-
+                        
                 </div>
 
 
