@@ -9,6 +9,7 @@ import Homepage from '../src/Pagine/Home';
 import App from './Pagine/App';
 import Home from './Pagine/Home';
 import Carrello from './Pagine/Carrello';
+import Login from './Pagine/login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
             <Route path='/' element={<Homepage/>}/>
             <Route path='/menu' element={<App/>}/>
             <Route path='/carrello' element={<Carrello/>}/>
+            <Route path='/login' element={<Login/>}/>
         </Routes>
 
     </Router>

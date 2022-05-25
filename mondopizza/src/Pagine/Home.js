@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Navbar from '../components/navbar.js';
 import '../css/Homeg.css';
 import {Link} from "react-router-dom";
+import Paralax from '../components/paralax';
+
 
 
 class Homepage extends Component {
@@ -10,10 +12,8 @@ class Homepage extends Component {
         return (
             <>
                 <Navbar />
-                <div>
-                    <h1>Homepage </h1>
-                    <Link to='/menu'>Vai al menu</Link>
-                </div>
+                <Paralax/>
+               
             </>
         )
 

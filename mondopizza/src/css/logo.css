@@ -1,0 +1,41 @@
+
+.logopizza{
+    background-image: url(../images/pizza.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-left:5px;
+    border:none;
+    background-color: transparent;
+}
+
+.login{
+    background-image: url(../images/login.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border:none;
+    background-color: transparent;
+    margin-right:10px;
+}
+
+.carrello{
+    background-image: url(../images/carrellino.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border:none;
+    background-color: transparent;
+    margin-right:5px;
+}
+
+.shop{
+    background-image: url(../images/store.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border:none;
+    background-color: transparent;
+    margin-right:5px;
+}
+
