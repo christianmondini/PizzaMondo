@@ -1,21 +1,12 @@
-import React, { Component } from 'react';
-import App from '../Pagine/App';
-import Homeg from '../Pagine/Homeg.css';
-import Carrello from '../Pagine/Carrello.js';
+import React,{Component} from 'react';
 import {Link} from "react-router-dom";
 
-function Button(){
+function bottone (){
     return(
-        <>
-            <button type="button" className="btn btn-primary" ><Link to="/carrello">carrello</Link></button>
-        
-        
-        
-        </>
+        <Link to='/'><button type="button" className="btn btn-info">Home</button></Link>
 
     );
 
-
 }
 
-export default Button;
+export default bottone;

@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Index from './index.css';
+import  './css/index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Homepage from '../src/Pagine/Home';
+  
 import App from './Pagine/App';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pagine/Home';
 import Carrello from './Pagine/Carrello';
 
@@ -13,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
     <Router>
         <Routes>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Homepage/>}/>
             <Route path='/menu' element={<App/>}/>
             <Route path='/carrello' element={<Carrello/>}/>
         </Routes>

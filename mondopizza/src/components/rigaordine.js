@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Homeg from '../Pagine/Homeg.css';
+import '../css/Homeg.css';
 import App from '../Pagine/App.js';
 import Card from '../components/card';
 

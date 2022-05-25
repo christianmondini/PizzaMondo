@@ -4,8 +4,7 @@ import Card from '../components/card';
 import margherita from '../images/margherita.jpg';
 import diavola from '../images/diavola.jpg';
 import vegetariana from '../images/vegetariana.jpg';
-
-
+import Bottone from '../components/button';
 
 
 class App extends Component {
@@ -53,6 +52,8 @@ class App extends Component {
                         />))
                     } </div>
                 </div>
+
+                <Bottone/>
 
             </>
         );
