@@ -7,11 +7,11 @@ import Card from '../components/card';
 
 function Ordine(){
     return (
-        <div className="container-fluid">
-            <div className='row' id="bordi">
-                <h4 id='parolesinistra'>Ciao</h4>
+        <div className="container-fluid ordine">
+            <div className='row '>
+                <h3 id='parolesinistra'>Ciao</h3>
 
-                <button type='button' className="ordine" id='bottone'>30</button>
+                <button type='submit' className=" btn btn-lg btn-riga">30</button>
 
             </div>
 

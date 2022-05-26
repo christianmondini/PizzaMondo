@@ -4,6 +4,7 @@ import Navbar from '../components/navbar.js';
 import '../css/Homeg.css';
 import ReactDOM from 'react-dom/client'
 import {Link} from "react-router-dom";
+import Parallaxe from '../components/parallax';
 
 
 
@@ -12,6 +13,7 @@ class Homepage extends Component {
         return (
             <>
                 <Navbar />
+                <Parallaxe/>
                
             </>
         )

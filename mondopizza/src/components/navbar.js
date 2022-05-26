@@ -10,7 +10,7 @@ function Navbar(){
   <div className="container-fluid">
     <Link to='/'><button type="button" className="logopizza"></button></Link>
     <p className="navbar-brand navbar-scritte">PizzaMondo</p>
-    <Link to='/login'><button type="button" className="login"></button></Link>
+    <Link to='/login'><button type="button" className="loginlogo"></button></Link>
     <Link to='/menu'><button type="button" className="shop"></button></Link>
     <Link to='/carrello'><button type="button" className="carrello"></button></Link>
    

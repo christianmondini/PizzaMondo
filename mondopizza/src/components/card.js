@@ -5,7 +5,7 @@ import '../css/card.css';
 class Card extends Component{
     render() {
         return (
-            <div className='col'>
+            <div className='col card-distanza'>
                 <div className="card " style={{ width: '15rem', textAlign: 'center', backgroundColor: 'white' }}>
                     <img src={this.props.card.immagine} className="card-img-top" alt="..." />
                     <div className="card-body carta">

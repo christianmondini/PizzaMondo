@@ -4,41 +4,37 @@ import '../css/login.css';
 
 function Log(){
     return(
-        <div className='container'>
-            <div className="login-reg-panel">
-                <div className="login-info-box">
-                    <h2>Have an account?</h2>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <label id="label-register" for="log-reg-show">Login</label>
-                    <input type="radio" name="active-log-panel" id="log-reg-show" checked="checked" />
-                </div>
 
-                <div className="register-info-box">
-                    <h2>Don't have an account?</h2>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <label id="label-login" for="log-login-show">Register</label>
-                    <input type="radio" name="active-log-panel" id="log-login-show" />
-                </div>
-
-                <div className="white-panel">
-                    <div className="login-show">
-                        <h2>LOGIN</h2>
-                        <input type="text" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
-                        <input type="button" value="Login" />
-                        <a href="">Forgot password?</a>
-                    </div>
-                    <div className="register-show">
-                        <h2>REGISTER</h2>
-                        <input type="text" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
-                        <input type="password" placeholder="Confirm Password" />
-                        <input type="button" value="Register" />
+        <div className=" container box ">
+            <div className="row">
+                <div className="col-md-4 col-md-offset-4">
+                    <div className="panel panel-default">
+                        <div className="panel-heading">
+                            <h5 className="scritte">Please sign in</h5>
+                        </div>
+                        <div className="panel-body pannello">
+                            <form accept-charset="UTF-8" role="form">
+                                <fieldset>
+                                    <div className="form-group">
+                                        <input className="form-control" placeholder="E-mail" name="email" type="text" />
+                                    </div>
+                                    <div className="form-group">
+                                        <input className="form-control" placeholder="Password" name="password" type="password" value="" />
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="remember" type="checkbox" value="Remember Me" /> Remember Me
+                                        </label>
+                                    </div>
+                                    <input className="btn btn-lg btn-gg btn-block" type="submit" value="Login" />
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-  
+
 
     );
 
